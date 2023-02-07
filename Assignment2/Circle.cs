@@ -8,13 +8,13 @@ namespace Assignment2
 {
     public class Circle
     {
-        public int radius ;
+        private int radius ;
 
 
 
         public Circle()
         {
-            this.radius = 0;
+            this.radius = 1;
         }
 
         public Circle(int radius)
@@ -24,6 +24,8 @@ namespace Assignment2
 
         public int GetRadius()
         {
+
+           
             return this.radius;
         }
 
